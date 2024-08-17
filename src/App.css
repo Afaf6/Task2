@@ -1,0 +1,9 @@
+main {
+  height: 80%;
+  width: 25%;
+  display: flex;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+  flex-direction: column;
+  padding: 10px;
+}

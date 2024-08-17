@@ -1,0 +1,36 @@
+#Buttonsdiv{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Buttonsdiv  button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration:none ;
+    margin: 4px 2px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    line-height: 30%;
+    box-sizing: border-box;
+}
+#Buttonsdiv > div :hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    caret-color: black;
+}
+#Buttonsdiv > div {
+    margin: 5px;
+    width:auto;
+}
