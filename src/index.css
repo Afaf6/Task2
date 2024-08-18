@@ -18,3 +18,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (mix-widtht : 700){
+  #root{
+    width: 60%;
+  }
+}
